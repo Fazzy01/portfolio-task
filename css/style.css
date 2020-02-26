@@ -1,0 +1,325 @@
+body{
+    /* padding: 0px 50px 0px 50px; */
+    padding-left: 0px;
+    background-color: #0b0952;
+}
+
+section nav {
+    color: #feffff;
+    background-color: #0b0952;
+    margin-left: 30px;
+}
+
+
+
+section nav a img {
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+}
+
+.navbar-nav  {
+    box-sizing: border-box;
+    border: 1px, brown;
+    
+}
+
+#banner .container {
+    background-color:#0b0952;
+    color:  #feffff;
+    padding-top: 50px;
+    height: 350px;
+    
+    
+}
+
+#banner .container h1 {
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+#banner .container h5 {
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#banner .container a img {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 2%;
+}
+
+#banner .container .fawaz {
+    font-size: px;
+}
+
+#banner .container .fawaz img {
+    font-size: px;
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+#banner .container .fawaz h5 {
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    position: relative;
+    top: -70px;
+    left: 140px;
+    width: 130px;
+    height: 100px;
+    padding: 5px 10px 10px 35px;
+    background-image: linear-gradient(to right, #f92975, #ed8f2d);
+    
+}
+
+#banner .container .fawaz h5 span1{
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    left: -38px;
+
+}
+
+#banner .container .fawaz h5 span2 {
+   position: relative;
+   top: -60px;
+}
+
+#about .container {
+    padding-top: 100px ;
+    background-color: #0b0952;
+    color:  #feffff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#about .container .story {}
+
+#about .container .story img{
+    margin-top: 50px;
+    height: 400px;
+    width: 450px;
+}
+
+#about .container .story .details{}
+
+#about .container .story .details h1 {
+    font-size: 40px;
+    font-weight: 550;
+    margin-top: 50px;
+}
+
+#about .container .story .details p {}
+
+#about .container .story .details h2 a {
+    background-color: #0b0952;
+    font: 14px;
+    font-weight: 200;
+    color:  #feffff;
+    display: block;
+    width: 240px;
+    padding: 7px 30px;
+    border: 1px solid brown ;
+}
+
+#portfolio {
+    padding-top: 100px ;
+    background-color: #0b0952;
+    color:  #feffff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#portfolio .container {}
+
+#portfolio .container  h1 {}
+
+#portfolio .container .side h1 {
+    font-size: 20px;
+    float: right;
+}
+
+#portfolio .container img {
+    height: 300px;
+    width: 480px;
+}
+
+#portfolio .container .work{
+    padding-left: 25px;
+    position: relative;
+    top: -150px;
+}
+
+#portfolio .container .work h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#portfolio .container .work p {
+    font-size: ;
+    font-weight: 300;
+}
+
+#portfolio .container .work h4 {
+    font-size: 20px;
+    display: block;
+    width: 150px;
+    padding: 7px 15px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#portfolio .container .work hr {
+    font-size: 2px;
+    color: white;
+}
+
+
+/* testimonial */
+
+#testimonial .container {
+    background-color: #131b5a;
+    color:  #feffff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#testimonial .container h2 {
+    
+}
+
+
+#testimonial .container p {}
+
+#testimonial .container aside {
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    
+}
+
+#testimonial .container aside botton {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border: ;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+#testimonial .container aside botton.previous {
+    background-color:  #28192e;
+    border-radius: 100%;
+}
+
+#testimonial .container aside botton.next {
+    background-color: #131b5a;
+    border: 1px solid blue;
+    border-radius: 100%;
+}
+
+#testimonial .container aside botton.previous {
+    background-color:  #28192e;
+}
+
+#testimonial .container aside botton.next:hover {
+    background-color: #0e1653;
+}
+
+#testimonial .container aside botton.previous:hover {
+    background-color:  #120b14;
+}
+
+#talk .container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    background-color: #0b0952;
+    color:  #feffff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#talk .container h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+#talk .container .touch {}
+
+#talk .container .touch h2 {
+    margin-left: 70px;
+}
+
+#talk .container .touch h3 {
+    margin-left: 70px;
+    display: block;
+    padding: 10px 20px;
+    width: 250px;
+    background-color: #fc3e5a;
+    border-radius: 50px;
+}
+
+#talk .container .touch form {}
+
+#talk .container .touch .form-row{}
+
+
+#talk .container .left-touch {
+    margin-top: 70px;
+    color: #feffff;
+}
+
+
+
+
+#news .container-fluid {
+    background-color: #0c0b47;
+    color:  #feffff;
+    font-family: 'Work Sans', sans-serif;
+    padding: 80px 130px 80px 130px;
+}
+
+#news .container-fluid h1 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#news .container-fluid .content {
+    margin-top: 20px;
+}
+
+#news .container-fluid img{
+    height: 250px;
+    width: 350px;
+}
+
+#news .container-fluid h6{
+    font-size: 15px;
+
+}
+
+#news .container-fluid h6 span{
+    color: #3d66b6;
+}
+
+#news .container-fluid p{
+    font-size: 20px;
+}
+
+#news .container-fluid h5{
+    color: #f4606e;
+    font-size: 14px;
+}
+
+
+
+/* footer */
+
+
